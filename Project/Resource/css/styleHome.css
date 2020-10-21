@@ -1,0 +1,138 @@
+/* =========== our Features content ===========*/
+
+.site-section-Features {
+    padding: 2.5em 0;
+    margin-top: -6.3em;
+}
+
+.banner-wrap {
+    background: #74d12b;
+    border-radius: 4px;
+}
+
+.banner-wrap a {
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
+
+.banner-wrap a:hover {
+    text-decoration: none;
+}
+
+.banner-wrap a h5 {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.banner-wrap a h5,
+.banner-wrap a p {
+    color: #fff;
+}
+
+.banner-wrap a p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.banner-wrap a p strong {
+    font-size: .9rem;
+    display: block;
+}
+
+/*========== Popular Products ==========*/
+
+
+
+/* ============== New Product =============== */
+
+.block-3 .nonloop-block-3 .owl-nav .owl-prev,
+.block-3 .nonloop-block-3 .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.block-3 .owl-nav .owl-prev {
+  left: 0;
+}
+
+.block-3 .owl-nav .owl-next {
+  right: 0;
+}
+
+
+/* ============== Developer =============== */
+
+.block-3 .hidden-prev-next .owl-nav .owl-prev,
+.block-3 .hidden-prev-next .owl-nav .owl-next{
+  display: none;
+}
+
+.develop blockquote p {
+    color: #000;
+    font-family: serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+  
+  .block-3 .owl-stage {
+    padding: 2em 0px;
+  }
+  
+  .block-3 .owl-dots {
+    text-align: center;
+  }
+    
+  .block-3 .owl-dots .owl-dot>span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    background: #ccc;
+  }
+  
+  .block-3 .owl-dots .owl-dot.active>span {
+    background: #51eaea;
+  }
+
+  /* ============== Our advantages =============== */
+
+.banner-1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: block;
+  min-height: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  transition: .3s all ease;
+  position: relative;
+  top: 0;
+}
+
+.banner-1:hover {
+  top: -10px;
+  text-decoration: none;
+  box-shadow: 2px 2px 10px black;
+}
+
+.banner-1 .banner-1-inner {
+  width: 50%;
+}
+
+.banner-1 .banner-1-inner h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.banner-1 .banner-1-inner p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}

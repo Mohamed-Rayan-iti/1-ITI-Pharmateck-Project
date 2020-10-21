@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    <link rel="stylesheet" href="../Resource/font/fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../Resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Resource/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../Resource/css/aos.css">
+    <link rel="stylesheet" href="../Resource/css/styleGlobal.css">
+    <link rel="stylesheet" href="../Resource/css/styleNav&Footer.css">
+    <link rel="stylesheet" href="../Resource/css/styleHeader.css">
+    <link rel="stylesheet" href="../Resource/css/styleProductItem.css">
+    <link rel="stylesheet" href="../Resource/css/styleProduct.css">
+</head>
+
+<body onload="getProductOnLoad()">
+    <!-- Navigation Section Start -->
+    <nav id="navigationbar">
+        <section class="logo">
+            <article class="nav-logo">
+                <a href="Index.html" class="js-logo-clone">PharmaTeck</a>
+            </article>
+        </section>
+
+        <section class="navigation text-md-center" role="navigation">
+            <ul class="menu">
+                <li ><a href="Index.html">Home</a></li>
+                <li class="active"><a href="productPage.html">Product</a></li>
+                <li><a href="aboutPage.html">About</a></li>
+                <li><a href="contactPage.html">Contact</a></li>
+            </ul>
+        </section>
+
+        <section class="icons">
+            <a href="cartPage.html" class="icons-btn d-inline-block bag">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="LoginPage.html" class="icons-btn d-inline-block bag">
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </section>
+    </nav>
+
+    <!-- Navigation Section End -->
+
+    <!-- Header Section Start -->
+
+    <header class="site-blocks-cover inner-page" style="background-image: url('../Resource/img/Cover/Cover 1.jpg');">
+        <section class="container">
+            <section class="row">
+                <section class="col-lg-7 mx-auto align-self-center">
+                    <article class="text-center">
+                        <h1>Product</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati natus iure
+                            voluptatum eveniet harum recusandae ducimus saepe.</p>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </header>
+
+
+    <!-- Header Section End -->
+
+    <!--  Filteration Section start -->
+
+    <section class="site-section">
+        <section class="container">
+            <section class="row">
+                <section class="col-lg-8 ">
+                    <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Price</h3>
+                    <article id="slider-range" class="border-primary"></article>
+                    <input type="text" name="text" id="amount" class="form-control border-0 pl-0 bg-white"
+                        disabled="" />
+                </section>
+
+                <section class="col-lg-2 ">
+                    <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Reference</h3>
+                    <button type="button" class="btn btn-secondary btn-md dropdown-toggle px-4"
+                        id="dropdownMenuReference" data-toggle="dropdown">Reference</button>
+                    <article class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                        <a class="dropdown-item" href="#">Relevance</a>
+                        <a class="dropdown-item" href="#">Name, A to Z</a>
+                        <a class="dropdown-item" href="#">Name, Z to A</a>
+                        <article class="dropdown-divider"></article>
+                        <a class="dropdown-item" href="#">Price, low to high</a>
+                        <a class="dropdown-item" href="#">Price, high to low</a>
+                    </article>
+                </section>
+
+                <section class="col-lg-2 ">
+                    <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Category</h3>
+                    <button type="button" class="btn btn-secondary btn-md dropdown-toggle px-4"
+                        id="dropdownMenuReference" data-toggle="dropdown">Category</button>
+                    <article class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                        <a class="dropdown-item" href="#">Category</a>
+                        <a class="dropdown-item" href="#">Vitamins</a>
+                        <a class="dropdown-item" href="#">Supplements</a>
+                        <article class="dropdown-divider"></article>
+                        <a class="dropdown-item" href="#">Antibiotics</a>
+                        <a class="dropdown-item" href="#">Anti-inflammatory</a>
+                        <article class="dropdown-divider"></article>
+                        <a class="dropdown-item" href="#">Cosmetology</a>
+                        <a class="dropdown-item" href="#">Diet &amp; Nutrition</a>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!--  Filteration Section End -->
+
+    <!--  Product Section start -->
+
+    <section class="site-section">
+        <section class="container">
+            <section class="row">
+                <header class="title-section text-center col-12">
+                    <h2 class="text-uppercase">Products</h2>
+                </header>
+            </section>
+
+            <section id="getProducts" class="row">
+
+
+
+            </section>
+            <section class="row mt-5">
+                <article class="col-12 text-center">
+                    <a id="btnGetMoreProducts" class="btn btn-primary text-white px-4 py-3" onclick="LoadData()">View
+                        More Products</a>
+                </article>
+            </section>
+        </section>
+    </section>
+    <!-- Anchor Button Go To Top Start -->
+
+    <a href="#navigationbar" class="anchorGoTop">
+        <section class="goTop">
+            <span class="navFooterBackToTopText">Back to top</span>
+        </section>
+    </a>
+    <!-- Anchor Button Go To Top End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+        <section class="footer-above">
+            <article class="Company">
+                <h2 class="">PharmaTeck</h2>
+                <p>is a Company For Medcine</p>
+            </article>
+            <article class="about">
+                <h3 class="">About Us</h3>
+                <ul>
+                    <li><a class="" href="#">Contacts</a></li>
+                    <li><a class="" href="#">Terms & Condition</a></li>
+                    <li><a class="" href="#">Privacy Policy</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="">Follow Us</h3>
+                <ul class="contact">
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-twitter"></i></i></a></li>
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </article>
+            <article class="">
+                <h3 class="">Developer</h3>
+                <ul class="developer">
+                    <li>Mohamed Rayan :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Asala Gendy :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Ahmed Youssef :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Mohamed Essam :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="footer-below">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script> PharmaTeck.
+        </section>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="../Resource/js/jquery-3.4.1.min.js"></script>
+    <script src="../Resource/js/jquery-ui.min.js"></script>
+    <script src="../Resource/js/popper.min.js"></script>
+    <script src="../Resource/js/bootstrap.min.js"></script>
+    <script src="../Resource/js/aos.js"></script>
+    <script src="../Resource/js/Navbar.js"></script>
+
+    <script src="../Resource/js/scriptProduct.js"></script>
+    <script src="../Resource/json/jsonProduct.js"></script>
+    <script src="productAjax.js"></script>
+
+</body>
+
+</html>

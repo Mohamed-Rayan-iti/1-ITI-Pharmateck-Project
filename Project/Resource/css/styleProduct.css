@@ -1,0 +1,24 @@
+#slider-range {
+    height: 8px;
+}
+
+#slider-range .ui-slider-handle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none !important;
+    background: #51eaea;
+}
+
+#slider-range .ui-slider-handle:focus,
+#slider-range .ui-slider-handle:active {
+    outline: none;
+}
+
+#slider-range .ui-slider-range {
+    background-color: #51eaea;
+}
+
+.hide-me{
+    display: none;
+}

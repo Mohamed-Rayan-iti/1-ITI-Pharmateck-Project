@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="../Resource/font/fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../Resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Resource/css/aos.css">
+    <link rel="stylesheet" href="../Resource/css/styleGlobal.css">
+    <link rel="stylesheet" href="../Resource/css/styleNav&Footer.css">
+    <link rel="stylesheet" href="../Resource/css/styleCart.css">
+    <link rel="stylesheet" href="../Resource/css/styleProductDetails.css">
+
+</head>
+
+<body>
+    <!-- Navigation Section Start -->
+    <nav id="navigationbar">
+        <section class="logo">
+            <article class="nav-logo">
+                <a href="Index.html" class="js-logo-clone">PharmaTeck</a>
+            </article>
+        </section>
+
+        <section class="navigation text-md-center" role="navigation">
+            <ul class="menu">
+                <li ><a href="Index.html">Home</a></li>
+                <li class="active"><a href="productPage.html">Product</a></li>
+                <li><a href="aboutPage.html">About</a></li>
+                <li><a href="contactPage.html">Contact</a></li>
+            </ul>
+        </section>
+
+        <div class="icons">
+            <a href="cartPage.html" class="icons-btn d-inline-block bag">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="LoginPage.html" class="icons-btn d-inline-block bag">
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Navigation Section End -->
+
+    <!-- Header Section Start -->
+
+    <section class="site-section bg-light py-3">
+        <section class="container">
+            <section class="row">
+                <article class="col-md-12 mb-0">
+                    <a href="Index.html">Home</a> <span class="mx-2 mb-0">/</span>
+                    <strong class="text-black">Cart</strong>
+                </article>
+            </section>
+        </section>
+    </section>
+
+    <!-- Header Section End -->
+
+    <!-- TableCart Section start -->
+
+    <section class="site-section">
+        <section class="container">
+            <section class="row mb-5">
+                <form class="col-md-12" method="GET">
+                    <section class="site-blocks-table">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-total">Total</th>
+                                    <th class="product-remove">Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product-thumbnail">
+                                        <img src="../Resource/img/product/product_02.png" alt="Image" class="img-fluid">
+                                    </td>
+                                    <td class="product-name">
+                                        <h2 class="h5 text-black">Chanca Piedra</h2>
+                                    </td>
+                                    <td>700.00 L.E</td>
+                                    <td>
+                                        <div class="input-group m-auto" style="max-width: 120px;">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-primary js-btn-minus"
+                                                    type="button">&minus;</button>
+                                            </div>
+                                            <input type="text" class="form-control text-center" value="1" placeholder=""
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-primary js-btn-plus"
+                                                    type="button">&plus;</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>700.00 L.E</td>
+                                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="product-thumbnail">
+                                        <img src="../Resource/img/product/product_01.png" alt="Image" class="img-fluid">
+                                    </td>
+                                    <td class="product-name">
+                                        <h2 class="h5 text-black">Bioderma</h2>
+                                    </td>
+                                    <td>550.00 L.E</td>
+                                    <td>
+                                        <div class="input-group m-auto" style="max-width: 120px;">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-primary js-btn-minus"
+                                                    type="button">&minus;</button>
+                                            </div>
+                                            <input type="text" class="form-control text-center" value="1" placeholder=""
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-primary js-btn-plus"
+                                                    type="button">&plus;</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>550.00 L.E</td>
+                                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </form>
+            </section>
+
+            <section class="row">
+                <section class="col-md-6">
+                    <section class="row mb-5">
+                        <article class="col-md-6 mb-3 mb-md-0">
+                            <button class="btn btn-primary btn-md btn-block">Update Cart</button>
+                        </article>
+                        <article class="col-md-6">
+                            <button class="btn btn-outline-primary btn-md btn-block">Continue Shopping</button>
+                        </article>
+                    </section>
+                    <section class="row">
+                        <article class="col-md-12">
+                            <label class="text-black h4" for="coupon">Coupon</label>
+                            <p>Enter your coupon code if you have one.</p>
+                        </article>
+                        <article class="col-md-8 mb-3 mb-md-0">
+                            <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
+                        </article>
+                        <article class="col-md-4">
+                            <button class="btn btn-primary btn-md px-4">Apply Coupon</button>
+                        </article>
+                    </section>
+                </section>
+                <article class="col-md-6 pl-5">
+                    <section class="row justify-content-end">
+                        <article class="col-md-7">
+                            <section class="row">
+                                <article class="col-md-12 text-right border-bottom mb-5">
+                                    <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                                </article>
+                            </section>
+                            <section class="row mb-3">
+                                <article class="col-md-6">
+                                    <span class="text-black">Subtotal</span>
+                                </article>
+                                <article class="col-md-6 text-right">
+                                    <strong class="text-black">1250.00 L.E</strong>
+                                </article>
+                            </section>
+                            <section class="row mb-5">
+                                <article class="col-md-6">
+                                    <span class="text-black">Total</span>
+                                </article>
+                                <article class="col-md-6 text-right">
+                                    <strong class="text-black">1250.00 L.E</strong>
+                                </article>
+                            </section>
+
+                            <section class="row">
+                                <article class="col-md-12">
+                                    <button class="btn btn-primary btn-lg btn-block">Proceed To Checkout</button>
+                                </article>
+                            </section>
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </section>
+    </section>
+
+
+    <!-- TableCart Section End -->
+
+       <!-- Our advantages Section Start -->
+
+       <section class="site-section bg-secondary bg-image" style="background-image: url('../Resource/img/Cover/hero_1.jpg');">
+        <section class="container">
+            <section class="row align-items-stretch">
+                <article class="col-lg-6 mb-5 mb-lg-0" >
+                    <a href="#" data-aos="fade-right" class="banner-1 h-100 d-flex"
+                        style="background-image: url('../Resource/img/Cover/bg_1.jpg');">
+                        <article class="banner-1-inner align-self-center">
+                            <h2>PharmaTeck Products</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex ad minus rem odio
+                                voluptatem.
+                            </p>
+                        </article>
+                    </a>
+                </article>
+                <article class="col-lg-6 mb-5 mb-lg-0">
+                    <a href="#" data-aos="fade-left" class="banner-1 h-100 d-flex"
+                        style="background-image: url('../Resource/img/Cover/bg_2.jpg');">
+                        <article class="banner-1-inner ml-auto  align-self-center">
+                            <h2>Rated by Experts</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex ad minus rem odio
+                                voluptatem.
+                            </p>
+                        </article>
+                    </a>
+                </article>
+            </section>
+        </section>
+    </section>
+
+
+    <!-- Our advantages Section End -->
+
+    <!-- Anchor Button Go To Top Start -->
+
+    <a href="#navigationbar" class="anchorGoTop">
+        <section class="goTop">
+            <span class="navFooterBackToTopText">Back to top</span>
+        </section>
+    </a>
+    <!-- Anchor Button Go To Top End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+        <section class="footer-above">
+            <article class="Company">
+                <h2 class="">PharmaTeck</h2>
+                <p>is a Company For Medcine</p>
+            </article>
+            <article class="about">
+                <h3 class="">About Us</h3>
+                <ul>
+                    <li><a class="" href="#">Contacts</a></li>
+                    <li><a class="" href="#">Terms & Condition</a></li>
+                    <li><a class="" href="#">Privacy Policy</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="">Follow Us</h3>
+                <ul class="contact">
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-twitter"></i></i></a></li>
+                    <li><a class="button social" href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </article>
+            <article class="">
+                <h3 class="">Developer</h3>
+                <ul class="developer">
+                    <li>Mohamed Rayan :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Asala Gendy :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Ahmed Youssef :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>Mohamed Essam :
+                        <a class="button social" href="#" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="footer-below">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script> PharmaTeck.
+        </section>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="../Resource/js/jquery-3.4.1.min.js"></script>
+    <script src="../Resource/js/popper.min.js"></script>
+    <script src="../Resource/js/bootstrap.min.js"></script>
+    <script src="../Resource/js/aos.js"></script>
+    <script src="../Resource/js/scriptProductDetails.js"></script>
+    <script src="../Resource/js/scriptAnimation.js"></script>
+
+</body>
+
+</html>

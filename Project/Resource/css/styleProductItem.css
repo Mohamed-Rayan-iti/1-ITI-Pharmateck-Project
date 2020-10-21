@@ -1,0 +1,19 @@
+
+.item {
+    transition: transform .7s;
+    overflow: hidden;
+}
+
+.item:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.05);
+}
+
+.item h3 a {
+    color: #000;
+}
+
+.item .price {
+    color: #000;
+}

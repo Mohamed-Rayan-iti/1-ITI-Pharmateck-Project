@@ -1,0 +1,166 @@
+[{
+        "product": {
+            "ID": 1,
+            "name": "Bioderma",
+            "img": "product_01.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "550.00 L.E",
+            "Category": "Vitamins"
+        }
+    },
+    {
+        "product": {
+            "ID": 2,
+            "name": "Chanca Piedra",
+            "img": "product_02.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "700.00 L.E",
+            "Category": "Antibiotics"
+        }
+    },
+    {
+        "product": {
+            "ID": 3,
+            "name": "Umcka Cold Care",
+            "img": "product_03.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "1200.00",
+            "Category": "Anti-inflammatory"
+        }
+    },
+    {
+        "product": {
+            "ID": 4,
+            "name": "Cetyl Pure",
+            "img": "product_04.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "450.00 L.E",
+            "Category": "Diet &amp; Nutrition"
+        }
+    },
+    {
+        "product": {
+            "ID": 5,
+            "name": "CLA Core",
+            "img": "product_05.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "380.00 L.E",
+            "Category": "Cosmetology"
+        }
+    },
+    {
+        "product": {
+            "ID": 6,
+            "name": "Poo Pourri",
+            "img": "product_06.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "890.00 L.E",
+            "Category": "Supplements"
+        }
+    },
+    {
+        "product": {
+            "ID": 7,
+            "name": "Bioderma",
+            "img": "product_01.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "550.00 L.E",
+            "Category": "Vitamins"
+        }
+    },
+    {
+        "product": {
+            "ID": 8,
+            "name": "Chanca Piedra",
+            "img": "product_02.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "700.00 L.E",
+            "Category": "Antibiotics"
+        }
+    },
+    {
+        "product": {
+            "ID": 9,
+            "name": "Umcka Cold Care",
+            "img": "product_03.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "1200.00",
+            "Category": "Anti-inflammatory"
+        }
+    },
+    {
+        "product": {
+            "ID": 10,
+            "name": "Cetyl Pure",
+            "img": "product_04.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "450.00 L.E",
+            "Category": "Diet &amp; Nutrition"
+        }
+    },
+    {
+        "product": {
+            "ID": 11,
+            "name": "CLA Core",
+            "img": "product_05.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "380.00 L.E",
+            "Category": "Cosmetology"
+        }
+    },
+    {
+        "product": {
+            "ID": 12,
+            "name": "Poo Pourri",
+            "img": "product_06.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "890.00 L.E",
+            "Category": "Supplements"
+        }
+    },
+    {
+        "product": {
+            "ID": 13,
+            "name": "Cetyl Pure",
+            "img": "product_04.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "450.00 L.E",
+            "Category": "Diet &amp; Nutrition"
+        }
+    },
+    {
+        "product": {
+            "ID": 14,
+            "name": "CLA Core",
+            "img": "product_05.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "380.00 L.E",
+            "Category": "Cosmetology"
+        }
+    },
+    {
+        "product": {
+            "ID": 15,
+            "name": "Poo Pourri",
+            "img": "product_06.png",
+            "description": "Ibuprofen Tablets, 200mg",
+            "moreDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natussoluta dolores iusto!",
+            "price": "890.00 L.E",
+            "Category": "Supplements"
+        }
+    }
+]

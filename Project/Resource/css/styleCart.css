@@ -1,0 +1,39 @@
+
+.site-blocks-table {
+    overflow: auto;
+  }
+  
+  .site-blocks-table .product-thumbnail {
+    width: 200px;
+  }
+  
+  .site-blocks-table thead th {
+    padding: 30px;
+    text-align: center;
+    border-width: 1px !important;
+    vertical-align: middle;
+    color: #212529;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .site-blocks-table td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #212529;
+  }
+  
+  .site-blocks-table tbody tr:first-child td {
+    border-top: 1px solid #51eaea !important;
+  }
+  
+  .site-block-order-table th {
+    border-top: none !important;
+    border-bottom-width: 1px !important;
+  }
+  
+  .site-block-order-table td,
+  .site-block-order-table th {
+    color: #000;
+  }

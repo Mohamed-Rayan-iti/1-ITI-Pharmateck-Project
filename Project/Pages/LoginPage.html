@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Resource/font/fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../Resource/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../Resource/css/styleGlobal.css">
+    <link rel="stylesheet" href="../Resource/css/styleHeader.css">
+    <link rel="stylesheet" href="../Resource/css/styleLogin.css">
+
+    <script src="../Resource/js/jquery-3.4.1.min.js"></script>
+    <script src="../Resource/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+
+    <header class="site-blocks-cover" style="background-image: url('../Resource/img/Cover/hero_1.jpg');">
+        <section class="container">
+            <section class="row">
+                <section class="col-lg-7 mx-auto order-lg-2 align-self-center">
+                    <article class="site-block-cover-content text-center">
+                        <h1 id="Heading" style="color:Az">Welcome To PharmaTeck</h1>
+                        <p>
+                            <a href="#myModal" class="trigger-btn btn btn-primary px-5 py-3" data-toggle="modal">Click
+                                to Open Login Modal</a>
+                        </p>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </header>
+
+    <!-- Header Section Start -->
+
+    <!-- Modal Section -->
+
+    <section id="myModal" class="modal fade">
+        <section class="modal-dialog modal-login">
+            <section class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title">Sign In</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </header>
+                <section class="modal-body">
+                    <form name="loginform" onSubmit="return validateForm();" action="Index.html" method="GET">
+                        <section class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="mt-2 mr-1 fa fa-user"></i></span>
+                                <input type="text" id="username" class="form-control" name="username" placeholder="Username"
+                                    required="required" autocomplete="off">
+                            </div>
+                        </section>
+                        <section class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="mt-2 mr-1 fa fa-lock"></i></span>
+                                <input type="password" id="password" class="form-control" name="password" placeholder="Password"
+                                    required="required">
+                            </div>
+                        </section>
+                        <div class="form-group">
+                            <input type="submit" id="submit" onclick="validate()" class="btn btn-primary btn-block btn-lg" value="Login">
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <script src="../Resource/js/scriptLogin.js"></script>
+</body>
+
+</html>
